@@ -1,0 +1,85 @@
+body {
+    position: relative;
+    font-family: "Open Sans";
+    background-image: url(Assets/bg.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+header {
+    position: relative;
+    font-family: 'Nevis';
+}
+
+.container-fluid{
+    padding: 15px 90px 15px 90px;
+}
+
+.greeting {
+    font-family: "Nevis";
+    font-weight: 1000;
+    font-size: 64px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #99fff1, 0 0 40px #99fff1, 0 0 50px #99fff1, 0 0 60px #99fff1, 0 0 70px #99fff1;
+}
+
+.greeting2 {
+    background-color: #4b4e50;
+    font-family: "Nevis";
+    font-weight: 1000;
+    font-size: 32px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #99fff1;
+}
+
+.table{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+footer a{
+    color: rgb(129, 129, 129);
+    text-decoration: none;
+}
+
+footer a:active,.footer-links a:focus,.footer-links a:hover{
+    color:#3366cc;
+}
+
+.form-label{
+    color: white;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+  
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+  
+.continue {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.continue:hover, .continue:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

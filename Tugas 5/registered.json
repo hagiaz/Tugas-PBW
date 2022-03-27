@@ -1,0 +1,18 @@
+[
+    {
+        "Airline": "Garuda",
+        "Origin": "Soekarno-Hatta (CGK)",
+        "Destination": "Ngurah Rai (DPS)",
+        "Fare": "1000000",
+        "Tax": 130000,
+        "Total_fare": 1130000
+    },
+    {
+        "Airline": "Batik Air",
+        "Origin": "Juanda (SUB)",
+        "Destination": "Sultan Hasanuddin (UPG)",
+        "Fare": "1900000",
+        "Tax": 100000,
+        "Total_fare": 2000000
+    }
+]
