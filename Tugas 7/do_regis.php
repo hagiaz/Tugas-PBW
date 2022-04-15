@@ -17,15 +17,13 @@
 
             $num = mysqli_affected_rows($conn);
             if($num>0){
-                ?>
-                <br> Selamat Anda sudah terdaftar di website kami. </br>
-                <a href="login.php">Login</a>
-                <?php
+                echo "<script> alert('Proses registrasi berhasil.'); 
+                window.location.href = 'login.php';
+                </script>";   
             }else{
-                ?>
-                <br>proses registrasi gagal. Silahkan ulangi</br>
-                <a href="register.php">kembali ke form register</a>
-                <?php
+                echo "<script> alert('Proses registrasi gagal. Silakan registasi kembali.'); 
+                window.location.href = 'register.php';
+                </script>";   
             }
         }
         ?>
