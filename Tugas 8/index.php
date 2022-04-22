@@ -17,7 +17,7 @@ class Book{
             }
             else{
             return $this->code_book . "-" . $this->name . "-" . $this->qty .
-            " <br><br> Buku dengan Judul $this->name dengan kode $this->code_book tersedia $this->qty di stok."; 
+            " <br><br> Buku dengan Judul '$this->name' dengan kode $this->code_book tersedia $this->qty di stok."; 
             }
         }
         
